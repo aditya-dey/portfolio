@@ -28,7 +28,7 @@ body
 {
   text-decoration: none;
   color:white;
-  font-family: Verdana;
+  font-family: Righteous;
   padding: 15px;
   font-size: 20px;
 }
@@ -40,7 +40,7 @@ body
   background-position: right;
   background-repeat: no-repeat; 
   background-size: contain; 
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Prompt;
   font-size: 50px;
   text-align: left;
   color: #e6dbc9;
@@ -53,10 +53,13 @@ body
 #welcome-section h1{
 	line-height:300px;
 	font-size:70px;
+	margin-left:50px;
 }
 
 #welcome-section h2{
-	font-size:36px;
+	font-size:40px;
+	margin-left:40px;
+	font-family: Faustina;
 }
 .background-tint {
   background-color: rgba(200,100,0,.5);
@@ -65,7 +68,7 @@ body
 
 #projects
 {
-  font-family: Arial, sans-serif;
+  font-family: Prompt;
   font-size: 20px;
   text-align: center;
   color: #c53211;
@@ -81,21 +84,33 @@ body
   font-weight: bold;
   padding: 20px;
   margin-right: 10px;
+  color:black;
 }
 
 hr
 {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 
-#profile-link
+#brief
 {
-  display: inline;
-  top: 30px;
-  text-decoration: none;
-  font-size: 30px;
+	margin-right:40px;
+	height:16%;
+	width:16%;
 }
-
+#movie
+{
+	margin-right:40px;
+	height:23%;
+	width:23%;
+}
+#github
+{
+	margin-right:40px;
+	height:23%;
+	width:23%;
+}
 @media (max-width: 768px)
 {
   .navbar-link
