@@ -1,0 +1,91 @@
+body
+{
+  background: #2e3830;
+  z-index: 1;
+  color: white;
+}
+
+#navbar
+{
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  background: #c53211;
+  text-align: right;
+  width: 100%;
+  top: 0px;
+  padding: 20px;
+  margin-left: -10px;
+}
+
+.navbar-link
+{
+  text-decoration: none;
+  color:white;
+  font-family: Verdana;
+  padding: 40px;
+  font-size: 20px;
+}
+
+#welcome-section
+{	
+  background: #282828;
+  background-image: url("profile.jpg");
+  background-position: right;
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: white;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+.background-tint {
+  background-color: rgba(200,100,0,.5);
+  background-blend-mode: multiply;
+}
+
+#projects
+{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: darkgreen;
+  letter-spacing: 1px;
+}
+
+.project-tile
+{
+  display: inline-block;
+  border: 1px solid darkgreen;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+hr
+{
+  margin-top: 30px;
+}
+
+#profile-link
+{
+  display: inline;
+  top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media (max-width: 768px)
+{
+  .navbar-link
+  {
+    display: block:
+  }
+}
