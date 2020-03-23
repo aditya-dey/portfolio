@@ -1,0 +1,105 @@
+body
+{
+  background: #e6dbc9;
+  z-index: 1;
+  color: #e6dbc9;
+}
+
+#navbar
+{
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  background: #c53211;
+  text-align: right;
+  width: 100%;
+  top: 0px;
+  padding: 10px;
+  margin-left: -10px;
+}
+
+.logo img{
+	padding-right:400px;
+	height:6%;
+	width:6%;
+}
+
+.navbar-link
+{
+  text-decoration: none;
+  color:white;
+  font-family: Verdana;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#welcome-section
+{	
+  background: #282828;
+  background-image: url("profile.jpg");
+  background-position: right;
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: #e6dbc9;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+#welcome-section h1{
+	line-height:300px;
+	font-size:70px;
+}
+
+#welcome-section h2{
+	font-size:36px;
+}
+.background-tint {
+  background-color: rgba(200,100,0,.5);
+  background-blend-mode: multiply;
+}
+
+#projects
+{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #c53211;
+  letter-spacing: 1px;
+}
+
+.project-tile
+{
+  display: inline-block;
+  border: 1px solid #c53211;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+hr
+{
+  margin-top: 30px;
+}
+
+#profile-link
+{
+  display: inline;
+  top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media (max-width: 768px)
+{
+  .navbar-link
+  {
+    display: block:
+  }
+}
